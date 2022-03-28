@@ -24,10 +24,10 @@ function setup() {
    world = engine.world; //Agregar world a engine
                              //el Engine de la linea 17 esta en mayúsculas por que lo mandamos a llamar
    
-fan = new rectangulos(50,370,50,30);
-fan2 = new rectangulos(150,370,50,30);
-fan3 = new rectangulos(250,370,50,30);
-fan4 = new rectangulos(350,370,50,30);
+fan = new rectangulos(50,370,50,30); // rectangulos con R  
+fan2 = new rectangulos(150,370,50,30); // rectangulos con R 
+fan3 = new rectangulos(250,370,50,30); // rectangulos con R 
+fan4 = new rectangulos(350,370,50,30); // rectangulos con R 
   
    var ball_options = {
     restitution: 0.95, //Rebote
@@ -41,8 +41,8 @@ fan4 = new rectangulos(350,370,50,30);
 
   //ground = Bodies.rectangle(200,390,400,20,ground_options); //creación del piso
   //World.add(world,ground); //agregar al mundo
-  //ground1 = Bodies.rectangle(100,300,100,20,ground_options); //creación del piso
-  //World.add(world,ground1); //agregar al mundo
+  //ground1 = Bodies.rectangle(100,300,100,20,ground_options); //creación del piso  // DESCOMENTAR ESTA LINEA
+  //World.add(world,ground1); //agregar al mundo   // DESCOMENTAR ESTA LINEA
 //crear un fondo
 //agregarlo a world
 
